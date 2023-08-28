@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Greet from './components/Greet';
+import Header from './components/Header';
+import { BrowserRouter } from 'react-router-dom';
+import NewM from './components/NewM';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Greet />
+  
+  <App />
+
+   
+
   </React.StrictMode>
 );
 

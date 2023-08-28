@@ -1,15 +1,12 @@
 import React, { useState } from 'react'
 
-function Greet (){
-    const [data, setData]= useState(false)
-    const name = ["intekhab"]
+function Greet ({name, age,data}){
+  
   return (
     <div className='App'>
-        <h1>
-            hello {name}
-         <p>you Clicked {data} times</p> 
-        </h1>
-        <button onClick={()=>setData(data + 1)}>count me </button>
+      
+          <h1>my name is {name} and my age  {age}</h1>
+          
     </div>
   )
 }
